@@ -8,156 +8,569 @@ mac-os-x-terminal-themes
 - [Screenshots](#screenshots)
 
 ##Intro##
-This is a set of color schemes for default Mac OS X Terminal.app (ported from iTerm color schemes, collected by [@mbadolato](https://github.com/mbadolato/iTerm2-Color-Schemes)). 
+This is a set of color schemes for default Mac OS X Terminal.app (ported from iTerm color schemes, collected by [@mbadolato](https://github.com/mbadolato/iTerm2-Color-Schemes)).
 Screenshots below and in the /screenshots directory of this repo.
-	
+
 note: Some default Mac OS themes are not included here (default themes like «Pro», «Basic», «Grass», «Homebrew», etc.), because you already have them :)
 
 ##Installation Instructions##
 To install: just double click on selected theme. That's all :)
 
 ##Screenshots##
+###3024 Day###
 
-note: all screenshots provided by [@mbadolato](https://github.com/mbadolato/iTerm2-Color-Schemes).
+![Screenshot](screenshots/3024_day.png)
 
-**Blazer**
+###3024 Night###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/blazer.png)
+![Screenshot](screenshots/3024_night.png)
 
-**Chalkboard**
+###AdventureTime###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/chalkboard.png)
+![Screenshot](screenshots/adventure_time.png)
 
-**Dark Pastel**
+###Afterglow###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/dark_pastel.png)
+![Screenshot](screenshots/afterglow.png)
 
-**Desert**
+###AlienBlood###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/desert.png)
+![Screenshot](screenshots/alien_blood.png)
 
-**Espresso**
+###Argonaut###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/espresso.png)
+![Screenshot](screenshots/argonaut.png)
 
-**Github**
+###Arthur###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/github.png)
+![Screenshot](screenshots/arthur.png)
 
-**Hurtado**
+###AtelierSulphurpool###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/hurtado.png)
+![Screenshot](screenshots/atelier-sulphurpool_dark.png)
 
-**idleToes**
+###Atom###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/idleToes.png)
+![Screenshot](screenshots/atom.png)
 
-**IR_Black**
+###Atom One Light###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/ir_black.png)
+![Screenshot](screenshots/atom_one_light.png)
 
-**Kibble**
+###Batman###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/kibble.png)
+![Screenshot](screenshots/batman.png)
 
-**LiquidCarbon**
+###Belafonte Day###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/liquid_carbon.png)
+![Screenshot](screenshots/belafonte_day.png)
 
-**LiquidCarbonTransparent**
+###Belafonte Night###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/liquid_carbon_transparent.png)
+![Screenshot](screenshots/belafonte_night.png)
 
-**LiquidCarbonTransparentInverse**
+###BirdsOfParadise###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/liquid_carbon_transparent_inverse.png)
+![Screenshot](screenshots/birds_of_paradise.png)
 
-**Mathias**
+###Blazer###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/mathias.png)
+![Screenshot](screenshots/blazer.png)
 
-**Misterioso**
+###Borland###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/misterioso.png)
+![Screenshot](screenshots/borland.png)
 
-**Monokai Soda**
+###Broadcast###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/monokai_soda.png)
+![Screenshot](screenshots/broadcast.png)
 
-**Neopolitan**
+###Brogrammer###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/neopolitan.png)
+![Screenshot](screenshots/brogrammer.png)
 
-**NightLion v1**
+###C64###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/nightlion_v1.png)
+![Screenshot](screenshots/c64.png)
 
-**NightLion v2**
+###Chalk###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/nightlion_v2.png)
+![Screenshot](screenshots/chalk.png)
 
-**Obsidian**
+###Chalkboard###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/obsidian.png)
+![Screenshot](screenshots/chalkboard.png)
 
-**Seafoam Pastel**
+###Ciapre###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/seafoam_pastel.png)
+![Screenshot](screenshots/ciapre.png)
 
-**Solarized Darcula (With background image)**
+###CLRS###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/solarized_darcula_with_background.png)
+![Screenshot](screenshots/clrs.png)
 
-**Solarized Darcula (Without background image)**
+###Cobalt Neon###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/solarized_darcula.png)
+![Screenshot](screenshots/cobalt_neon.png)
 
-**Solarized Dark**
+###Cobalt2###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/solarized_dark.png)
+![Screenshot](screenshots/cobalt2.png)
 
-**Solarized Light**
+###CrayonPonyFish###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/solarized_light.png)
+![Screenshot](screenshots/crayon_pony_fish.png)
 
-**Symfonic**
+###Dark Pastel###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/symfonic.png)
+![Screenshot](screenshots/dark_pastel.png)
 
-**Teerb**
+###Darkside###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/teerb.png)
+![Screenshot](screenshots/darkside.png)
 
-**Tomorrow**
+###Desert###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/tomorrow.png)
+![Screenshot](screenshots/desert.png)
 
-**Tomorrow Night**
+###DimmedMonokai###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/tomorrow_night.png)
+![Screenshot](screenshots/dimmed_monokai.png)
 
-**Tomorrow Night Blue**
+###Dracula###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/tomorrow_night_blue.png)
+![Screenshot](screenshots/dracula.png)
 
-**Tomorrow Night Bright**
+###Earthsong###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/tomorrow_night_bright.png)
+![Screenshot](screenshots/earthsong.png)
 
-**Tomorrow Night Eighties**
+###Elemental###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/tomorrow_night_eighties.png)
+![Screenshot](screenshots/elemental.png)
 
-**Twilight**
+###ENCOM###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/twilight.png)
+![Screenshot](screenshots/encom.png)
 
-**Vaughn**
+###Espresso###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/vaughn.png)
+![Screenshot](screenshots/espresso.png)
 
-**Zenburn**
+###Espresso Libre###
 
-![Screenshot](https://github.com/lysyi3m/mac-os-x-terminal-themes/raw/master/screenshots/zenburn.png)
+![Screenshot](screenshots/espresso_libre.png)
 
+###Fideloper###
 
+![Screenshot](screenshots/fideloper.png)
+
+###FishTank###
+
+![Screenshot](screenshots/fish_tank.png)
+
+###Flat###
+
+![Screenshot](screenshots/flat.png)
+
+###Flatland###
+
+![Screenshot](screenshots/flatland.png)
+
+###Floraverse###
+
+![Screenshot](screenshots/floraverse.png)
+
+###FrontEndDelight###
+
+![Screenshot](screenshots/front_end_delight.png)
+
+###FunForrest###
+
+![Screenshot](screenshots/fun_forrest.png)
+
+###Galaxy###
+
+![Screenshot](screenshots/galaxy.png)
+
+###Github###
+
+![Screenshot](screenshots/github.png)
+
+###Grape###
+
+![Screenshot](screenshots/grape.png)
+
+###Grass###
+
+![Screenshot](screenshots/grass.png)
+
+###Hardcore###
+
+![Screenshot](screenshots/hardcore.png)
+
+###Harper###
+
+![Screenshot](screenshots/harper.png)
+
+###Highway###
+
+![Screenshot](screenshots/highway.png)
+
+###Hipster Green###
+
+![Screenshot](screenshots/hipster_green.png)
+
+###Homebrew###
+
+![Screenshot](screenshots/homebrew.png)
+
+###Hurtado###
+
+![Screenshot](screenshots/hurtado.png)
+
+###Hybrid###
+
+![Screenshot](screenshots/hybrid.png)
+
+###IC_Green_PPL###
+
+![Screenshot](screenshots/ic_green_ppl.png)
+
+###IC_Orange_PPL###
+
+![Screenshot](screenshots/ic_orange_ppl.png)
+
+###idleToes###
+
+![Screenshot](screenshots/idleToes.png)
+
+###IR_Black###
+
+![Screenshot](screenshots/ir_black.png)
+
+###Jackie Brown###
+
+![Screenshot](screenshots/jackie_brown.png)
+
+###Japanesque###
+
+![Screenshot](screenshots/japanesque.png)
+
+###Jellybeans###
+
+![Screenshot](screenshots/jellybeans.png)
+
+###Kibble###
+
+![Screenshot](screenshots/kibble.png)
+
+###Later This Evening ###
+
+![Screenshot](screenshots/later_this_evening.png)
+
+###Lavandula###
+
+![Screenshot](screenshots/lavandula.png)
+
+###LiquidCarbon###
+
+![Screenshot](screenshots/liquid_carbon.png)
+
+###LiquidCarbonTransparent###
+
+![Screenshot](screenshots/liquid_carbon_transparent.png)
+
+###LiquidCarbonTransparentInverse###
+
+![Screenshot](screenshots/liquid_carbon_transparent_inverse.png)
+
+###Man Page###
+
+![Screenshot](screenshots/man_page.png)
+
+###Material###
+
+![Screenshot](screenshots/material.png)
+
+###MaterialDark###
+
+![Screenshot](screenshots/material_dark.png)
+
+###Mathias###
+
+![Screenshot](screenshots/mathias.png)
+
+###Medallion###
+
+![Screenshot](screenshots/medallion.png)
+
+###Misterioso###
+
+![Screenshot](screenshots/misterioso.png)
+
+###Molokai###
+
+![Screenshot](screenshots/molokai.png)
+
+###MonaLisa###
+
+![Screenshot](screenshots/mona_lisa.png)
+
+###Monokai Soda###
+
+![Screenshot](screenshots/monokai_soda.png)
+
+###N0tch2k###
+
+![Screenshot](screenshots/n0tch2k.png)
+
+###Neopolitan###
+
+![Screenshot](screenshots/neopolitan.png)
+
+###Neutron###
+
+![Screenshot](screenshots/neutron.png)
+
+
+###NightLion v1###
+
+![Screenshot](screenshots/nightlion_v1.png)
+
+###NightLion v2###
+
+![Screenshot](screenshots/nightlion_v2.png)
+
+###Novel###
+
+![Screenshot](screenshots/novel.png)
+
+###Obsidian###
+
+![Screenshot](screenshots/obsidian.png)
+
+###Ocean###
+
+![Screenshot](screenshots/ocean.png)
+
+
+###OceanicMaterial###
+
+![Screenshot](screenshots/oceanic_material.png)
+
+###Ollie###
+
+![Screenshot](screenshots/ollie.png)
+
+###Paraiso Dark###
+
+![Screenshot](screenshots/paraiso_dark.png)
+
+###PaulMillr###
+
+![Screenshot](screenshots/paul_millr.png)
+
+###Pencil Dark###
+
+![Screenshot](screenshots/pencil_dark.png)
+
+###Pencil Light###
+
+![Screenshot](screenshots/pencil_light.png)
+
+###Piatto Light###
+
+![Screenshot](screenshots/piatto_light.png)
+
+###Pnevma###
+
+![Screenshot](screenshots/pnevma.png)
+
+###Pro###
+
+![Screenshot](screenshots/pro.png)
+
+###Red Alert###
+
+![Screenshot](screenshots/red_alert.png)
+
+###Red Sands###
+
+![Screenshot](screenshots/red_sands.png)
+
+###Rippedcasts###
+
+![Screenshot](screenshots/rippedcasts.png)
+
+###Royal###
+
+![Screenshot](screenshots/royal.png)
+
+###Seafoam Pastel###
+
+![Screenshot](screenshots/seafoam_pastel.png)
+
+###SeaShells###
+
+![Screenshot](screenshots/sea_shells.png)
+
+###Seti###
+
+![Screenshot](screenshots/seti.png)
+
+###Shaman###
+
+![Screenshot](screenshots/shaman.png)
+
+###Slate###
+
+![Screenshot](screenshots/slate.png)
+
+###Smyck###
+
+![Screenshot](screenshots/smyck.png)
+
+###SoftServer###
+
+![Screenshot](screenshots/soft_server.png)
+
+###Solarized Darcula (With background image)###
+
+![Screenshot](screenshots/solarized_darcula_with_background.png)
+
+###Solarized Darcula (Without background image)###
+
+![Screenshot](screenshots/solarized_darcula.png)
+
+###Solarized Dark###
+
+![Screenshot](screenshots/solarized_dark.png)
+
+###Solarized Dark Higher Contrast###
+
+![Screenshot](screenshots/solarized_dark_higher_contrast.png)
+
+###Solarized Light###
+
+![Screenshot](screenshots/solarized_light.png)
+
+###SpaceGray###
+
+![Screenshot](screenshots/space_gray.png)
+
+###SpaceGray Eighties###
+
+![Screenshot](screenshots/spacegray_eighties.png)
+
+###SpaceGray Eighties Dull###
+
+![Screenshot](screenshots/spacegray_eighties_dull.png)
+
+###Spacedust###
+
+![Screenshot](screenshots/spacedust.png)
+
+###Spiderman###
+
+![Screenshot](screenshots/spiderman.png)
+
+###Spring###
+
+![Screenshot](screenshots/spring.png)
+
+###Square###
+
+![Screenshot](screenshots/square.png)
+
+###Sundried###
+
+![Screenshot](screenshots/sundried.png)
+
+###Symfonic###
+
+![Screenshot](screenshots/symfonic.png)
+
+###Teerb###
+
+![Screenshot](screenshots/teerb.png)
+
+###Terminal Basic###
+
+![Screenshot](screenshots/terminal_basic.png)
+
+###Thayer Bright###
+
+![Screenshot](screenshots/thayer_bright.png)
+
+###The Hulk###
+
+![Screenshot](screenshots/the_hulk.png)
+
+###Tomorrow###
+
+![Screenshot](screenshots/tomorrow.png)
+
+###Tomorrow Night###
+
+![Screenshot](screenshots/tomorrow_night.png)
+
+###Tomorrow Night Blue###
+
+![Screenshot](screenshots/tomorrow_night_blue.png)
+
+###Tomorrow Night Bright###
+
+![Screenshot](screenshots/tomorrow_night_bright.png)
+
+###Tomorrow Night Eighties###
+
+![Screenshot](screenshots/tomorrow_night_eighties.png)
+
+###ToyChest###
+
+![Screenshot](screenshots/toy_chest.png)
+
+###Treehouse###
+
+![Screenshot](screenshots/treehouse.png)
+
+###Twilight###
+
+![Screenshot](screenshots/twilight.png)
+
+###Urple###
+
+![Screenshot](screenshots/urple.png)
+
+###Vaughn###
+
+![Screenshot](screenshots/vaughn.png)
+
+###VibrantInk###
+
+![Screenshot](screenshots/vibrant_ink.png)
+
+###WarmNeon###
+
+![Screenshot](screenshots/warm_neon.png)
+
+###Wez###
+
+![Screenshot](screenshots/wez.png)
+
+###WildCherry###
+
+![Screenshot](screenshots/wild_cherry.png)
+
+###Wombat###
+
+![Screenshot](screenshots/wombat.png)
+
+###Wryan###
+
+![Screenshot](screenshots/wryan.png)
+
+###Zenburn###
+
+![Screenshot](screenshots/zenburn.png)
