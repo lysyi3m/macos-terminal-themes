@@ -47,7 +47,7 @@ enum TerminalColors: String {
   case AnsiBrightWhite     = "ANSIBrightWhiteColor"
   case Background          = "BackgroundColor"
   case Text                = "TextColor"
-  case BoldText            = "BoldTextColor"
+  case BoldText            = "TextBoldColor"
   case Selection           = "SelectionColor"
   case Cursor              = "CursorColor"
 }
@@ -132,7 +132,7 @@ func arguments() -> [String] {
   for i in 1...Process.argc {
     if let arg = String.fromCString(Process.unsafeArgv[Int(i)]) {
       args.append(arg)
-    } 
+    }
   }
   return args
 }
