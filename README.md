@@ -137,6 +137,10 @@ To install: just double click on selected theme. That's all :)
 
 ![Screenshot](screenshots/dimmed_monokai.png)
 
+###DotGov###
+
+![Screenshot](screenshots/dot_gov.png)
+
 ###Dracula###
 
 ![Screenshot](screenshots/dracula.png)
