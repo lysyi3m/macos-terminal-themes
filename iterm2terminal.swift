@@ -2,161 +2,111 @@
 
 import AppKit
 
-enum iTermColors: String {
-    case Ansi0 = "Ansi 0 Color"
-    case Ansi1 = "Ansi 1 Color"
-    case Ansi2 = "Ansi 2 Color"
-    case Ansi3 = "Ansi 3 Color"
-    case Ansi4 = "Ansi 4 Color"
-    case Ansi5 = "Ansi 5 Color"
-    case Ansi6 = "Ansi 6 Color"
-    case Ansi7 = "Ansi 7 Color"
-    case Ansi8 = "Ansi 8 Color"
-    case Ansi9 = "Ansi 9 Color"
-    case Ansi10 = "Ansi 10 Color"
-    case Ansi11 = "Ansi 11 Color"
-    case Ansi12 = "Ansi 12 Color"
-    case Ansi13 = "Ansi 13 Color"
-    case Ansi14 = "Ansi 14 Color"
-    case Ansi15 = "Ansi 15 Color"
-    case CursorText = "Cursor Text Color"
-    case SelectedText = "Selected Text Color"
-    case Foreground = "Foreground Color"
-    case Background = "Background Color"
-    case Bold = "Bold Color"
-    case Selection = "Selection Color"
-    case Cursor = "Cursor Color"
-}
-
-enum TerminalColors: String {
-    case AnsiBlack           = "ANSIBlackColor"
-    case AnsiRed             = "ANSIRedColor"
-    case AnsiGreen           = "ANSIGreenColor"
-    case AnsiYellow          = "ANSIYellowColor"
-    case AnsiBlue            = "ANSIBlueColor"
-    case AnsiMagenta         = "ANSIMagentaColor"
-    case AnsiCyan            = "ANSICyanColor"
-    case AnsiWhite           = "ANSIWhiteColor"
-    case AnsiBrightBlack     = "ANSIBrightBlackColor"
-    case AnsiBrightRed       = "ANSIBrightRedColor"
-    case AnsiBrightGreen     = "ANSIBrightGreenColor"
-    case AnsiBrightYellow    = "ANSIBrightYellowColor"
-    case AnsiBrightBlue      = "ANSIBrightBlueColor"
-    case AnsiBrightMagenta   = "ANSIBrightMagentaColor"
-    case AnsiBrightCyan      = "ANSIBrightCyanColor"
-    case AnsiBrightWhite     = "ANSIBrightWhiteColor"
-    case Background          = "BackgroundColor"
-    case Text                = "TextColor"
-    case BoldText            = "TextBoldColor"
-    case Selection           = "SelectionColor"
-    case Cursor              = "CursorColor"
-}
-
-let iTermColor2TerminalColor = [
-    iTermColors.Ansi0: TerminalColors.AnsiBlack,
-    iTermColors.Ansi1: TerminalColors.AnsiRed,
-    iTermColors.Ansi2: TerminalColors.AnsiGreen,
-    iTermColors.Ansi3: TerminalColors.AnsiYellow,
-    iTermColors.Ansi4: TerminalColors.AnsiBlue,
-    iTermColors.Ansi5: TerminalColors.AnsiMagenta,
-    iTermColors.Ansi6: TerminalColors.AnsiCyan,
-    iTermColors.Ansi7: TerminalColors.AnsiWhite,
-    iTermColors.Ansi8: TerminalColors.AnsiBrightBlack,
-    iTermColors.Ansi9: TerminalColors.AnsiBrightRed,
-    iTermColors.Ansi10: TerminalColors.AnsiBrightGreen,
-    iTermColors.Ansi11: TerminalColors.AnsiBrightYellow,
-    iTermColors.Ansi12: TerminalColors.AnsiBrightBlue,
-    iTermColors.Ansi13: TerminalColors.AnsiBrightMagenta,
-    iTermColors.Ansi14: TerminalColors.AnsiBrightCyan,
-    iTermColors.Ansi15: TerminalColors.AnsiBrightWhite,
-    iTermColors.Background: TerminalColors.Background,
-    iTermColors.Foreground: TerminalColors.Text,
-    iTermColors.Selection: TerminalColors.Selection,
-    iTermColors.Bold: TerminalColors.BoldText,
-    iTermColors.Cursor: TerminalColors.Cursor,
-]
-
-struct iTermColorComponent {
-    static let Red = "Red Component"
-    static let Green = "Green Component"
-    static let Blue = "Blue Component"
-}
-
-func itermColorSchemeToTerminalColorScheme(itermColorScheme: NSDictionary, name: String) -> NSDictionary {
-    var terminalColorScheme: [String: AnyObject] = [
-        "name" : name,
-        "type" : "Window Settings",
-        "ProfileCurrentVersion" : 2.04,
-        "columnCount": 90,
-        "rowCount": 50,
-    ]
-    if let font = archivedFontWithName("PragmataPro", size: 14) {
-        terminalColorScheme["Font"] = font
+class ThemeConvertor {
+    enum Error: ErrorType {
+        case NoArguments, UnableToLoadITermFile(NSURL)
     }
-    for (rawKey, rawValue) in itermColorScheme {
-        if let name = rawKey as? String {
-            if let key = iTermColors(rawValue: name) {
-                if let terminalKey = iTermColor2TerminalColor[key] {
-                    if let itermDict = rawValue as? NSDictionary {
-                        let (r, g, b) = (
-                            floatValue(itermDict[iTermColorComponent.Red]),
-                            floatValue(itermDict[iTermColorComponent.Green]),
-                            floatValue(itermDict[iTermColorComponent.Blue]))
-                        let color = NSColor(deviceRed: r, green: g, blue: b, alpha: 1)
-                        let colorData = NSKeyedArchiver.archivedDataWithRootObject(color)
-                        terminalColorScheme[terminalKey.rawValue] = colorData
-                    }
-                }
+    
+    private let iTermFiles: [String]
+    
+    private let iTermColor2TerminalColorMap = [
+        "Ansi 0 Color": "ANSIBlackColor",
+        "Ansi 1 Color": "ANSIRedColor",
+        "Ansi 2 Color": "ANSIGreenColor",
+        "Ansi 3 Color": "ANSIYellowColor",
+        "Ansi 4 Color": "ANSIBlueColor",
+        "Ansi 5 Color": "ANSIMagentaColor",
+        "Ansi 6 Color": "ANSICyanColor",
+        "Ansi 7 Color": "ANSIWhiteColor",
+        "Ansi 8 Color": "ANSIBrightBlackColor",
+        "Ansi 9 Color": "ANSIBrightRedColor",
+        "Ansi 10 Color": "ANSIBrightGreenColor",
+        "Ansi 11 Color": "ANSIBrightYellowColor",
+        "Ansi 12 Color": "ANSIBrightBlueColor",
+        "Ansi 13 Color": "ANSIBrightMagentaColor",
+        "Ansi 14 Color": "ANSIBrightCyanColor",
+        "Ansi 15 Color": "ANSIBrightWhiteColor",
+        "Background Color": "BackgroundColor",
+        "Foreground Color": "TextColor",
+        "Selection Color": "SelectionColor",
+        "Bold Color": "BoldTextColor",
+        "Cursor Color": "CursorColor",
+    ]
+    
+    required init(iTermFiles: [String]) throws {
+        if iTermFiles.isEmpty {
+            throw Error.NoArguments
+        }
+        self.iTermFiles = iTermFiles
+    }
+    
+    func run() {
+        for iTermFile in iTermFiles {
+            let iTermFileURL = NSURL(fileURLWithPath: iTermFile).absoluteURL
+            let folder = iTermFileURL.URLByDeletingLastPathComponent!
+            let schemeName = iTermFileURL.URLByDeletingPathExtension!.lastPathComponent!
+            let terminalFileURL = folder.URLByAppendingPathComponent("\(schemeName).terminal")
+            do {
+                try convertScheme(schemeName, fromITermFileAtURL: iTermFileURL, toTerminalFileAtURL: terminalFileURL)
+            }
+            catch Error.UnableToLoadITermFile(let iTermFileURL) {
+                print("Error: Unable to load \(iTermFileURL)")
+            }
+            catch let error as NSError {
+                print("Error: \(error.description)")
             }
         }
     }
-    return terminalColorScheme
-}
-
-func archivedFontWithName(name: String, size: CGFloat) -> NSData? {
-    if let font = NSFont(name: name, size: size) {
+    
+    private func convertScheme(scheme: String, fromITermFileAtURL src: NSURL, toTerminalFileAtURL dest: NSURL) throws {
+        guard let iTermScheme = NSDictionary(contentsOfURL: src) else {
+            throw Error.UnableToLoadITermFile(src)
+        }
+        
+        print("Converting \(src) -> \(dest)")
+        
+        var terminalScheme: [String: AnyObject] = [
+            "name" : scheme,
+            "type" : "Window Settings",
+            "ProfileCurrentVersion" : 2.04,
+            "columnCount": 90,
+            "rowCount": 50,
+        ]
+        
+        if let font = archivedFontWithName("PragmataPro", size: 14) {
+            terminalScheme["Font"] = font
+        }
+        
+        for (iTermColorKey, iTermColorDict) in iTermScheme {
+            if let iTermColorKey = iTermColorKey as? String,
+                let terminalColorKey = iTermColor2TerminalColorMap[iTermColorKey],
+                let iTermColorDict = iTermColorDict as? NSDictionary,
+                let r = iTermColorDict["Red Component"]?.floatValue,
+                let g = iTermColorDict["Green Component"]?.floatValue,
+                let b = iTermColorDict["Blue Component"]?.floatValue {
+                
+                    let color = NSColor(calibratedRed: CGFloat(r), green: CGFloat(g), blue: CGFloat(b), alpha: 1)
+                    let colorData = NSKeyedArchiver.archivedDataWithRootObject(color)
+                    terminalScheme[terminalColorKey] = colorData
+            }
+        }
+        NSDictionary(dictionary: terminalScheme).writeToURL(dest, atomically: true)
+    }
+    
+    private func archivedFontWithName(name: String, size: CGFloat) -> NSData? {
+        guard let font = NSFont(name: name, size: size) else {
+            return nil
+        }
         return NSKeyedArchiver.archivedDataWithRootObject(font)
     }
-    return nil
 }
 
-func floatValue(value: AnyObject?) -> CGFloat {
-    if let num = value as? CGFloat {
-        return num
-    }
-    return 0
-}
 
-func arguments() -> [String] {
-    var args: [String] = []
-    for i in 1...Process.argc {
-        if let arg = String.fromCString(Process.unsafeArgv[Int(i)]) {
-            args.append(arg)
-        }
-    }
-    return args
+do {
+    let iTermFiles = [String](Process.arguments.dropFirst())
+    try ThemeConvertor(iTermFiles: iTermFiles).run()
 }
-
-func convertToTerminalColors(itermFileURL: NSURL, terminalFileURL: NSURL) {
-    if let itermScheme = NSDictionary(contentsOfURL: itermFileURL) {
-        print("converting \(itermFileURL) -> \(terminalFileURL)")
-        let terminalName = terminalFileURL.URLByDeletingPathExtension!.lastPathComponent!
-        let terminalScheme = itermColorSchemeToTerminalColorScheme(itermScheme, name: terminalName)
-        terminalScheme.writeToURL(terminalFileURL, atomically: true)
-    } else {
-        print("unable to load \(itermFileURL)")
-    }
-}
-
-let args = arguments()
-if args.count > 0 {
-    for itermFile in args {
-        let absoluteURL = NSURL(fileURLWithPath: itermFile).absoluteURL
-        let folder = absoluteURL.URLByDeletingLastPathComponent!
-        let schemeName = absoluteURL.URLByDeletingPathExtension!.lastPathComponent!
-        let terminalFileURL = folder.URLByAppendingPathComponent("\(schemeName).terminal")
-        convertToTerminalColors(absoluteURL, terminalFileURL: terminalFileURL)
-    }
-} else {
-    print("usage: iTermColorsToTerminalColors FILE.itermcolors [...]")
+catch ThemeConvertor.Error.NoArguments {
+    print("Error: no arguments provided")
+    print("Usage: iTermColorsToTerminalColors FILE.ITermColors [...]")
 }
