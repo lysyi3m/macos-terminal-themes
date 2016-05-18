@@ -11,13 +11,15 @@ _note_: Some default Mac OS X themes are not included here (default themes like 
 ##Installation Instructions##
 To install: just double click on selected theme.
 
-##Tool##
-Also, this repo contains tool to convert any iTerm 2 color scheme into Mac OS X Terminal scheme. 
-To run just execute script: 
+##Tools##
+This repo contains tool to convert any iTerm 2 color scheme into Mac OS X Terminal scheme.
+To run just execute script:
 
 ```
-./iterm2terminal.swift /path/to/my/awesome-scheme.itermcolors
+./tools/iterm2terminal.swift /path/to/my/awesome-scheme.itermcolors
 ```
+
+If you have an awesome schemes and going to publish them, please generate preview image using `preview.sh` script under 'tools' directory.
 
 ##Screenshots##
 ###3024 Day###
