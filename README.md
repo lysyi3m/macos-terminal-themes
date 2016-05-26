@@ -9,7 +9,8 @@ Screenshots below and in the /screenshots directory of this repo.
 _note_: Some default Mac OS X themes are not included here (default themes like "Pro", "Basic", "Grass",etc.), because you already have them :)
 
 ##Installation Instructions##
-To install: just double click on selected theme.
+- Double click on selected theme. It will open a new Terminal window with that color scheme.
+- Set the scheme as the default one with `Shell -> Use Settings as Default`
 
 ##Tools##
 This repo contains tool to convert any iTerm 2 color scheme into Mac OS X Terminal scheme.
