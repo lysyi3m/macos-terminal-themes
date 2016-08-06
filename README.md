@@ -501,6 +501,14 @@ If you have an awesome schemes and going to publish them, please generate previe
 
 ![Screenshot](screenshots/symfonic.png)
 
+###Tango Dark###
+
+![Screenshot](screenshots/tango_dark.png)
+
+###Tango Light###
+
+![Screenshot](screenshots/tango_light.png)
+
 ###Teerb###
 
 ![Screenshot](screenshots/teerb.png)
