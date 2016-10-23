@@ -176,6 +176,10 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/dracula.png)
 
+### Duotone Dark
+
+![Screenshot](screenshots/duotone_dark.png)
+
 ### Earthsong
 
 ![Screenshot](screenshots/earthsong.png)
@@ -231,6 +235,10 @@ preview image using the following steps.
 ### Github
 
 ![Screenshot](screenshots/github.png)
+
+### Glacier
+
+![Screenshot](screenshots/glacier.png)
 
 ### Grape
 
@@ -295,6 +303,10 @@ preview image using the following steps.
 ### Jellybeans
 
 ![Screenshot](screenshots/jellybeans.png)
+
+### JetBrains Darcula
+
+![Screenshot](screenshots/jet_brains_darcula.png)
 
 ### Kibble
 
@@ -398,9 +410,9 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/ollie.png)
 
-### Paraiso Dark
+### Parasio Dark
 
-![Screenshot](screenshots/paraiso_dark.png)
+![Screenshot](screenshots/parasio_dark.png)
 
 ### PaulMillr
 
@@ -581,6 +593,10 @@ preview image using the following steps.
 ### Twilight
 
 ![Screenshot](screenshots/twilight.png)
+
+### Ubuntu
+
+![Screenshot](screenshots/ubuntu.png)
 
 ### Urple
 
