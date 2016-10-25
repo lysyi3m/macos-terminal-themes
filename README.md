@@ -21,6 +21,8 @@ _Note_: Some default Mac OS X themes are not included here (default themes like
 
 ## Tools
 
+### Convert iTerm 2 Color Scheme
+
 This repo contains a tool to convert any iTerm 2 color scheme into Mac OS X
 Terminal scheme. To run just execute script:
 
@@ -28,8 +30,20 @@ Terminal scheme. To run just execute script:
 ./tools/iterm2terminal.swift /path/to/my/awesome-scheme.itermcolors
 ```
 
+### Generate Theme Preview
+
 If you have an awesome schemes and going to publish them, please generate
-preview image using `preview.sh` script under 'tools' directory.
+preview image using the following steps.
+
+1. Load the theme in a terminal.
+2. Run
+   ```
+   bash tools/preview.sh
+   ```
+3. Set the font size to 14.
+4. Take a screenshot and put it in the `screenshots/` folder.
+5. Update the `README.md` and `screenshots/README.md` to include your new
+   screenshot.
 
 
 ## Screenshots
@@ -162,6 +176,10 @@ preview image using `preview.sh` script under 'tools' directory.
 
 ![Screenshot](screenshots/dracula.png)
 
+### Duotone Dark
+
+![Screenshot](screenshots/duotone_dark.png)
+
 ### Earthsong
 
 ![Screenshot](screenshots/earthsong.png)
@@ -217,6 +235,10 @@ preview image using `preview.sh` script under 'tools' directory.
 ### Github
 
 ![Screenshot](screenshots/github.png)
+
+### Glacier
+
+![Screenshot](screenshots/glacier.png)
 
 ### Grape
 
@@ -281,6 +303,10 @@ preview image using `preview.sh` script under 'tools' directory.
 ### Jellybeans
 
 ![Screenshot](screenshots/jellybeans.png)
+
+### JetBrains Darcula
+
+![Screenshot](screenshots/jet_brains_darcula.png)
 
 ### Kibble
 
@@ -384,9 +410,9 @@ preview image using `preview.sh` script under 'tools' directory.
 
 ![Screenshot](screenshots/ollie.png)
 
-### Paraiso Dark
+### Parasio Dark
 
-![Screenshot](screenshots/paraiso_dark.png)
+![Screenshot](screenshots/parasio_dark.png)
 
 ### PaulMillr
 
@@ -567,6 +593,10 @@ preview image using `preview.sh` script under 'tools' directory.
 ### Twilight
 
 ![Screenshot](screenshots/twilight.png)
+
+### Ubuntu
+
+![Screenshot](screenshots/ubuntu.png)
 
 ### Urple
 

@@ -104,6 +104,10 @@ Screenshots
 
 ![image](dracula.png)
 
+`duoton_dark.png`
+
+![image](duotone_dark.png)
+
 `earthsong.png`
 
 ![image](earthsong.png)
@@ -143,6 +147,10 @@ Screenshots
 `github.png`
 
 ![image](github.png)
+
+`glacier.png`
+
+![image](glacier.png)
 
 `grape.png`
 
@@ -207,6 +215,10 @@ Screenshots
 `jellybeans.png`
 
 ![image](jellybeans.png)
+
+`jet_brains_darcula.png`
+
+![image](jet_brains_darcula.png)
 
 `kibble.png`
 
@@ -288,9 +300,9 @@ Screenshots
 
 ![image](ollie.png)
 
-`paraiso_dark.png`
+`parasio_dark.png`
 
-![image](paraiso_dark.png)
+![image](parasio_dark.png)
 
 `paul_millr.png`
 
@@ -443,6 +455,10 @@ Screenshots
 `twilight.png`
 
 ![image](twilight.png)
+
+`ubuntu.png`
+
+![image](ubuntu.png)
 
 `urple.png`
 
