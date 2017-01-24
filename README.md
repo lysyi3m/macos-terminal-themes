@@ -14,8 +14,13 @@ _Note_: Some default Mac OS X themes are not included here (default themes like
 
 ## Installation Instructions
 
-- Double click on selected theme. It will open a new Terminal window with that
+- Clone or download this repo
+
+- Go to `schemes/` folder 
+
+- Double click on selected `*.terminal` file. It will open a new Terminal window with that
   color scheme.
+  
 - Set the scheme as the default one with `Shell -> Use Settings as Default`
 
 
