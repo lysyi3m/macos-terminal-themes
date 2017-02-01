@@ -28,9 +28,21 @@ Screenshots
 
 ![image](arthur.png)
 
+`atelier-sulphurpool_dark.png`
+
+![image](atelier-sulphurpool_dark.png)
+
 `atom.png`
 
 ![image](atom.png)
+
+`atom_one_light.png`
+
+![image](atom_one_light.png)
+
+`batman.png`
+
+![image](batman.png)
 
 `belafonte_day.png`
 
@@ -47,6 +59,14 @@ Screenshots
 `blazer.png`
 
 ![image](blazer.png)
+
+`borland.png`
+
+![image](borland.png)
+
+`bright_lights.png`
+
+![image](bright_lights.png)
 
 `broadcast.png`
 
@@ -80,6 +100,10 @@ Screenshots
 
 ![image](cobalt2.png)
 
+`cobalt_neon.png`
+
+![image](cobalt_neon.png)
+
 `crayon_pony_fish.png`
 
 ![image](crayon_pony_fish.png)
@@ -100,11 +124,15 @@ Screenshots
 
 ![image](dimmed_monokai.png)
 
+`dot_gov.png`
+
+![image](dot_gov.png)
+
 `dracula.png`
 
 ![image](dracula.png)
 
-`duoton_dark.png`
+`duotone_dark.png`
 
 ![image](duotone_dark.png)
 
@@ -116,6 +144,10 @@ Screenshots
 
 ![image](elemental.png)
 
+`encom.png`
+
+![image](encom.png)
+
 `espresso.png`
 
 ![image](espresso.png)
@@ -123,6 +155,10 @@ Screenshots
 `espresso_libre.png`
 
 ![image](espresso_libre.png)
+
+`fideloper.png`
+
+![image](fideloper.png)
 
 `fish_tank.png`
 
@@ -132,6 +168,14 @@ Screenshots
 
 ![image](flat.png)
 
+`flatland.png`
+
+![image](flatland.png)
+
+`floraverse.png`
+
+![image](floraverse.png)
+
 `front_end_delight.png`
 
 ![image](front_end_delight.png)
@@ -140,9 +184,9 @@ Screenshots
 
 ![image](fun_forrest.png)
 
-`genMD.py`
+`galaxy.png`
 
-![image](genMD.py)
+![image](galaxy.png)
 
 `github.png`
 
@@ -224,6 +268,10 @@ Screenshots
 
 ![image](kibble.png)
 
+`later_this_evening.png`
+
+![image](later_this_evening.png)
+
 `lavandula.png`
 
 ![image](lavandula.png)
@@ -243,6 +291,14 @@ Screenshots
 `man_page.png`
 
 ![image](man_page.png)
+
+`material.png`
+
+![image](material.png)
+
+`material_dark.png`
+
+![image](material_dark.png)
 
 `mathias.png`
 
@@ -276,6 +332,10 @@ Screenshots
 
 ![image](neopolitan.png)
 
+`neutron.png`
+
+![image](neutron.png)
+
 `nightlion_v1.png`
 
 ![image](nightlion_v1.png)
@@ -295,6 +355,10 @@ Screenshots
 `ocean.png`
 
 ![image](ocean.png)
+
+`oceanic_material.png`
+
+![image](oceanic_material.png)
 
 `ollie.png`
 
@@ -316,6 +380,10 @@ Screenshots
 
 ![image](pencil_light.png)
 
+`piatto_light.png`
+
+![image](piatto_light.png)
+
 `pnevma.png`
 
 ![image](pnevma.png)
@@ -323,10 +391,6 @@ Screenshots
 `pro.png`
 
 ![image](pro.png)
-
-`README.md`
-
-![image](README.md)
 
 `red_alert.png`
 
@@ -359,6 +423,10 @@ Screenshots
 `shaman.png`
 
 ![image](shaman.png)
+
+`slate.png`
+
+![image](slate.png)
 
 `smyck.png`
 
@@ -396,6 +464,18 @@ Screenshots
 
 ![image](spacedust.png)
 
+`spacegray_eighties.png`
+
+![image](spacegray_eighties.png)
+
+`spacegray_eighties_dull.png`
+
+![image](spacegray_eighties_dull.png)
+
+`spiderman.png`
+
+![image](spiderman.png)
+
 `spring.png`
 
 ![image](spring.png)
@@ -412,6 +492,14 @@ Screenshots
 
 ![image](symfonic.png)
 
+`tango_dark.png`
+
+![image](tango_dark.png)
+
+`tango_light.png`
+
+![image](tango_light.png)
+
 `teerb.png`
 
 ![image](teerb.png)
@@ -423,6 +511,10 @@ Screenshots
 `thayer_bright.png`
 
 ![image](thayer_bright.png)
+
+`the_hulk.png`
+
+![image](the_hulk.png)
 
 `tomorrow.png`
 
@@ -480,6 +572,10 @@ Screenshots
 
 ![image](wez.png)
 
+`wild_cherry.png`
+
+![image](wild_cherry.png)
+
 `wombat.png`
 
 ![image](wombat.png)
@@ -491,4 +587,3 @@ Screenshots
 `zenburn.png`
 
 ![image](zenburn.png)
-
