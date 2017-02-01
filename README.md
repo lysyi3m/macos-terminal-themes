@@ -117,6 +117,10 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/borland.png)
 
+### Bright Ligths
+
+![Screenshot](screenshots/bright_lights.png)
+
 ### Broadcast
 
 ![Screenshot](screenshots/broadcast.png)
