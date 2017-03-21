@@ -463,6 +463,14 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/rippedcasts.png)
 
+### Renault style
+
+![Screenshot](screenshots/renault_style.png)
+
+### Renault style light
+
+![Screenshot](screenshots/renault_style_light.png)
+
 ### Royal
 
 ![Screenshot](screenshots/royal.png)
