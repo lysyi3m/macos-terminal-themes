@@ -136,6 +136,10 @@ Screenshots
 
 ![image](dracula.png)
 
+`dumbeldore.png`
+
+![image](dumbeldore.png)
+
 `duotone_dark.png`
 
 ![image](duotone_dark.png)
