@@ -44,6 +44,14 @@ Screenshots
 
 ![image](atom_one_light.png)
 
+`ayu.png`
+
+![image](ayu.png)
+
+`ayu_light.png`
+
+![image](ayu_light.png)
+
 `batman.png`
 
 ![image](batman.png)
