@@ -97,6 +97,15 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/atom_one_light.png)
 
+### ayu
+
+![Screenshot](screenshots/ayu.png)
+
+### ayu Light
+
+![Screenshot](screenshots/ayu_light.png)
+
+
 ### Batman
 
 ![Screenshot](screenshots/batman.png)
