@@ -16,11 +16,11 @@ _Note_: Some default Mac OS X themes are not included here (default themes like
 
 - Clone or download this repo
 
-- Go to `schemes/` folder 
+- Go to `schemes/` folder
 
 - Double click on selected `*.terminal` file. It will open a new Terminal window with that
   color scheme.
-  
+
 - Set the scheme as the default one with `Shell -> Use Settings as Default`
 
 
@@ -73,7 +73,7 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/alien_blood.png)
 
-### Alucard 
+### Alucard
 
 ![Screenshot](screenshots/alucard.png)
 
@@ -96,6 +96,15 @@ preview image using the following steps.
 ### Atom One Light
 
 ![Screenshot](screenshots/atom_one_light.png)
+
+### ayu
+
+![Screenshot](screenshots/ayu.png)
+
+### ayu Light
+
+![Screenshot](screenshots/ayu_light.png)
+
 
 ### Batman
 
@@ -188,6 +197,10 @@ preview image using the following steps.
 ### Dracula
 
 ![Screenshot](screenshots/dracula.png)
+
+### Dumbeldore
+
+![Screenshot](screenshots/dumbeldore.png)
 
 ### Duotone Dark
 
@@ -325,7 +338,7 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/kibble.png)
 
-### Later This Evening 
+### Later This Evening
 
 ![Screenshot](screenshots/later_this_evening.png)
 

@@ -44,6 +44,14 @@ Screenshots
 
 ![image](atom_one_light.png)
 
+`ayu.png`
+
+![image](ayu.png)
+
+`ayu_light.png`
+
+![image](ayu_light.png)
+
 `batman.png`
 
 ![image](batman.png)
@@ -135,6 +143,10 @@ Screenshots
 `dracula.png`
 
 ![image](dracula.png)
+
+`dumbeldore.png`
+
+![image](dumbeldore.png)
 
 `duotone_dark.png`
 
