@@ -417,7 +417,7 @@ preview image using the following steps.
 
 ### Nova
 
-![Screenshot] (screenshots/nova.png)
+![Screenshot](screenshots/nova.png)
 
 ### Novel
 
