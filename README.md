@@ -415,6 +415,10 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/nightlion_v2.png)
 
+### Nova
+
+![Screenshot](screenshots/nova.png)
+
 ### Novel
 
 ![Screenshot](screenshots/novel.png)
