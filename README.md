@@ -130,7 +130,7 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/borland.png)
 
-### Bright Ligths
+### Bright Lights
 
 ![Screenshot](screenshots/bright_lights.png)
 
