@@ -3,8 +3,8 @@
 import AppKit
 
 class ThemeConvertor {
-    enum Error: ErrorType {
-        case NoArguments, UnableToLoadITermFile(NSURL)
+    enum ThemeConvertorError: Error {
+        case NoArguments, UnableToLoadITermFile(URL)
     }
     
     private let iTermFiles: [String]
@@ -35,21 +35,21 @@ class ThemeConvertor {
     
     required init(iTermFiles: [String]) throws {
         if iTermFiles.isEmpty {
-            throw Error.NoArguments
+            throw ThemeConvertorError.NoArguments
         }
         self.iTermFiles = iTermFiles
     }
     
     func run() {
         for iTermFile in iTermFiles {
-            let iTermFileURL = NSURL(fileURLWithPath: iTermFile).absoluteURL
-            let folder = iTermFileURL.URLByDeletingLastPathComponent!
-            let schemeName = iTermFileURL.URLByDeletingPathExtension!.lastPathComponent!
-            let terminalFileURL = folder.URLByAppendingPathComponent("\(schemeName).terminal")
+            let iTermFileURL = URL(fileURLWithPath: iTermFile).absoluteURL
+            let folder = iTermFileURL.deletingLastPathComponent()
+            let schemeName = iTermFileURL.deletingPathExtension().lastPathComponent
+            let terminalFileURL = folder.appendingPathComponent("\(schemeName).terminal")
             do {
-                try convertScheme(schemeName, fromITermFileAtURL: iTermFileURL, toTerminalFileAtURL: terminalFileURL)
+              try convert(scheme: schemeName, fromITermFileAtURL: iTermFileURL, toTerminalFileAtURL: terminalFileURL)
             }
-            catch Error.UnableToLoadITermFile(let iTermFileURL) {
+            catch ThemeConvertorError.UnableToLoadITermFile(let iTermFileURL) {
                 print("Error: Unable to load \(iTermFileURL)")
             }
             catch let error as NSError {
@@ -58,14 +58,14 @@ class ThemeConvertor {
         }
     }
     
-    private func convertScheme(scheme: String, fromITermFileAtURL src: NSURL, toTerminalFileAtURL dest: NSURL) throws {
-        guard let iTermScheme = NSDictionary(contentsOfURL: src) else {
-            throw Error.UnableToLoadITermFile(src)
+    private func convert(scheme: String, fromITermFileAtURL src: URL, toTerminalFileAtURL dest: URL) throws {
+        guard let iTermScheme = NSDictionary(contentsOf: src) else {
+            throw ThemeConvertorError.UnableToLoadITermFile(src)
         }
         
         print("Converting \(src) -> \(dest)")
         
-        var terminalScheme: [String: AnyObject] = [
+        var terminalScheme: [String: Any] = [
             "name" : scheme,
             "type" : "Window Settings",
             "ProfileCurrentVersion" : 2.04,
@@ -73,7 +73,7 @@ class ThemeConvertor {
             "rowCount": 50,
         ]
         
-        if let font = archivedFontWithName("PragmataPro", size: 14) {
+      if let font = archivedFont(withName: "PragmataPro", size: 14) {
             terminalScheme["Font"] = font
         }
         
@@ -81,32 +81,32 @@ class ThemeConvertor {
             if let iTermColorKey = iTermColorKey as? String,
                 let terminalColorKey = iTermColor2TerminalColorMap[iTermColorKey],
                 let iTermColorDict = iTermColorDict as? NSDictionary,
-                let r = iTermColorDict["Red Component"]?.floatValue,
-                let g = iTermColorDict["Green Component"]?.floatValue,
-                let b = iTermColorDict["Blue Component"]?.floatValue {
+                let r = (iTermColorDict["Red Component"] as AnyObject?)?.floatValue,
+                let g = (iTermColorDict["Green Component"] as AnyObject?)?.floatValue,
+                let b = (iTermColorDict["Blue Component"] as AnyObject?)?.floatValue {
                 
                     let color = NSColor(calibratedRed: CGFloat(r), green: CGFloat(g), blue: CGFloat(b), alpha: 1)
-                    let colorData = NSKeyedArchiver.archivedDataWithRootObject(color)
+                    let colorData = NSKeyedArchiver.archivedData(withRootObject: color)
                     terminalScheme[terminalColorKey] = colorData
             }
         }
-        NSDictionary(dictionary: terminalScheme).writeToURL(dest, atomically: true)
+      NSDictionary(dictionary: terminalScheme).write(to: dest, atomically: true)
     }
     
-    private func archivedFontWithName(name: String, size: CGFloat) -> NSData? {
+    private func archivedFont(withName name: String, size: CGFloat) -> Data? {
         guard let font = NSFont(name: name, size: size) else {
             return nil
         }
-        return NSKeyedArchiver.archivedDataWithRootObject(font)
+        return NSKeyedArchiver.archivedData(withRootObject: font)
     }
 }
 
 
 do {
-    let iTermFiles = [String](Process.arguments.dropFirst())
+    let iTermFiles = [String](CommandLine.arguments.dropFirst())
     try ThemeConvertor(iTermFiles: iTermFiles).run()
 }
-catch ThemeConvertor.Error.NoArguments {
+catch ThemeConvertor.ThemeConvertorError.NoArguments {
     print("Error: no arguments provided")
     print("Usage: iTermColorsToTerminalColors FILE.ITermColors [...]")
 }
