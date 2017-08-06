@@ -266,6 +266,10 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/glacier.png)
 
+### GoaBase
+
+![Screenshot](screenshots/goabase.png)
+
 ### Grape
 
 ![Screenshot](screenshots/grape.png)
