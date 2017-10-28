@@ -394,6 +394,10 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/mona_lisa.png)
 
+### Monokai Pro (Filter Spectrum)
+
+![Screenshot](screenshots/monokai_pro_filter_spectrum.png)
+
 ### Monokai Soda
 
 ![Screenshot](screenshots/monokai_soda.png)
