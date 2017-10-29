@@ -596,10 +596,6 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/teerb.png)
 
-### Terminal Basic
-
-![Screenshot](screenshots/terminal_basic.png)
-
 ### Thayer Bright
 
 ![Screenshot](screenshots/thayer_bright.png)
