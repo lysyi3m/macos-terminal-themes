@@ -63,7 +63,7 @@ preview image using the following steps.
 
 ### AdventureTime
 
-![Screenshot](screenshots/adventure_time.png)
+![Screenshot](screenshots/adventuretime.png)
 
 ### Afterglow
 
@@ -71,7 +71,7 @@ preview image using the following steps.
 
 ### AlienBlood
 
-![Screenshot](screenshots/alien_blood.png)
+![Screenshot](screenshots/alienblood.png)
 
 ### Alucard
 
@@ -87,7 +87,7 @@ preview image using the following steps.
 
 ### AtelierSulphurpool
 
-![Screenshot](screenshots/atelier-sulphurpool_dark.png)
+![Screenshot](screenshots/ateliersulphurpool.png)
 
 ### Atom
 
@@ -95,7 +95,7 @@ preview image using the following steps.
 
 ### Atom One Light
 
-![Screenshot](screenshots/atom_one_light.png)
+![Screenshot](screenshots/atomonelight.png)
 
 ### ayu
 
@@ -120,7 +120,7 @@ preview image using the following steps.
 
 ### BirdsOfParadise
 
-![Screenshot](screenshots/birds_of_paradise.png)
+![Screenshot](screenshots/birdsofparadise.png)
 
 ### Blazer
 
@@ -172,7 +172,7 @@ preview image using the following steps.
 
 ### CrayonPonyFish
 
-![Screenshot](screenshots/crayon_pony_fish.png)
+![Screenshot](screenshots/crayonponyfish.png)
 
 ### Dark Pastel
 
@@ -188,11 +188,11 @@ preview image using the following steps.
 
 ### DimmedMonokai
 
-![Screenshot](screenshots/dimmed_monokai.png)
+![Screenshot](screenshots/dimmedmonokai.png)
 
 ### DotGov
 
-![Screenshot](screenshots/dot_gov.png)
+![Screenshot](screenshots/dotgov.png)
 
 ### Dracula
 
@@ -200,7 +200,7 @@ preview image using the following steps.
 
 ### Dumbeldore
 
-![Screenshot](screenshots/dumbeldore.png)
+![Screenshot](screenshots/dumbledore.png)
 
 ### Duotone Dark
 
@@ -232,7 +232,7 @@ preview image using the following steps.
 
 ### FishTank
 
-![Screenshot](screenshots/fish_tank.png)
+![Screenshot](screenshots/fishtank.png)
 
 ### Flat
 
@@ -248,11 +248,11 @@ preview image using the following steps.
 
 ### FrontEndDelight
 
-![Screenshot](screenshots/front_end_delight.png)
+![Screenshot](screenshots/frontenddelight.png)
 
 ### FunForrest
 
-![Screenshot](screenshots/fun_forrest.png)
+![Screenshot](screenshots/funforrest.png)
 
 ### Galaxy
 
@@ -316,7 +316,7 @@ preview image using the following steps.
 
 ### idleToes
 
-![Screenshot](screenshots/idleToes.png)
+![Screenshot](screenshots/idletoes.png)
 
 ### IR_Black
 
@@ -336,7 +336,7 @@ preview image using the following steps.
 
 ### JetBrains Darcula
 
-![Screenshot](screenshots/jet_brains_darcula.png)
+![Screenshot](screenshots/jetbrains_darcula.png)
 
 ### Kibble
 
@@ -352,15 +352,15 @@ preview image using the following steps.
 
 ### LiquidCarbon
 
-![Screenshot](screenshots/liquid_carbon.png)
+![Screenshot](screenshots/liquidcarbon.png)
 
 ### LiquidCarbonTransparent
 
-![Screenshot](screenshots/liquid_carbon_transparent.png)
+![Screenshot](screenshots/liquidcarbontransparent.png)
 
 ### LiquidCarbonTransparentInverse
 
-![Screenshot](screenshots/liquid_carbon_transparent_inverse.png)
+![Screenshot](screenshots/liquidcarbontransparentinverse.png)
 
 ### Man Page
 
@@ -372,7 +372,7 @@ preview image using the following steps.
 
 ### MaterialDark
 
-![Screenshot](screenshots/material_dark.png)
+![Screenshot](screenshots/materialdark.png)
 
 ### Mathias
 
@@ -392,11 +392,11 @@ preview image using the following steps.
 
 ### MonaLisa
 
-![Screenshot](screenshots/mona_lisa.png)
+![Screenshot](screenshots/monalisa.png)
 
 ### Monokai Pro (Filter Spectrum)
 
-![Screenshot](screenshots/monokai_pro_filter_spectrum.png)
+![Screenshot](screenshots/monokai_pro__filter_spectrum_.terminal.png)
 
 ### Monokai Soda
 
@@ -442,7 +442,7 @@ preview image using the following steps.
 
 ### OceanicMaterial
 
-![Screenshot](screenshots/oceanic_material.png)
+![Screenshot](screenshots/oceanicmaterial.png)
 
 ### Ollie
 
@@ -454,15 +454,15 @@ preview image using the following steps.
 
 ### PaulMillr
 
-![Screenshot](screenshots/paul_millr.png)
+![Screenshot](screenshots/paulmillr.png)
 
 ### Pencil Dark
 
-![Screenshot](screenshots/pencil_dark.png)
+![Screenshot](screenshots/pencildark.png)
 
 ### Pencil Light
 
-![Screenshot](screenshots/pencil_light.png)
+![Screenshot](screenshots/pencillight.png)
 
 ### Piatto Light
 
@@ -506,7 +506,7 @@ preview image using the following steps.
 
 ### SeaShells
 
-![Screenshot](screenshots/sea_shells.png)
+![Screenshot](screenshots/seashells.png)
 
 ### Seti
 
@@ -526,11 +526,11 @@ preview image using the following steps.
 
 ### SoftServer
 
-![Screenshot](screenshots/soft_server.png)
+![Screenshot](screenshots/softserver.png)
 
-### Solarized Darcula (With background image)
+### Solarized Darcula (patched)
 
-![Screenshot](screenshots/solarized_darcula_with_background.png)
+![Screenshot](screenshots/solarized_dark___patched.png)
 
 ### Solarized Darcula (Without background image)
 
@@ -550,7 +550,7 @@ preview image using the following steps.
 
 ### SpaceGray
 
-![Screenshot](screenshots/space_gray.png)
+![Screenshot](screenshots/spacegray.png)
 
 ### SpaceGray Eighties
 
@@ -626,7 +626,7 @@ preview image using the following steps.
 
 ### ToyChest
 
-![Screenshot](screenshots/toy_chest.png)
+![Screenshot](screenshots/toychest.png)
 
 ### Treehouse
 
@@ -650,11 +650,11 @@ preview image using the following steps.
 
 ### VibrantInk
 
-![Screenshot](screenshots/vibrant_ink.png)
+![Screenshot](screenshots/vibrantink.png)
 
 ### WarmNeon
 
-![Screenshot](screenshots/warm_neon.png)
+![Screenshot](screenshots/warmneon.png)
 
 ### Wez
 
@@ -662,7 +662,7 @@ preview image using the following steps.
 
 ### WildCherry
 
-![Screenshot](screenshots/wild_cherry.png)
+![Screenshot](screenshots/wildcherry.png)
 
 ### Wombat
 
