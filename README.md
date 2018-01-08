@@ -47,8 +47,7 @@ preview image using the following steps.
    ```
 3. Set the font size to 14.
 4. Take a screenshot and put it in the `screenshots/` folder.
-5. Update the `README.md` and `screenshots/README.md` to include your new
-   screenshot.
+5. Update the `README.md` to include your new screenshot.
 
 
 ## Screenshots
