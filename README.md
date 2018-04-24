@@ -483,6 +483,10 @@ preview image using the following steps.
 
 ![Screenshot](screenshots/red_sands.png)
 
+### Relaxed
+
+![Screenshot](screenshots/relaxed.png)
+
 ### Rippedcasts
 
 ![Screenshot](screenshots/rippedcasts.png)
