@@ -12,6 +12,13 @@ _Note_: Some default Mac OS X themes are not included here (default themes like
 "Pro", "Basic", "Grass", etc.), because you already have them :)
 
 
+## Pre-requireties
+
+Since terminal themes are just color schemes, you need to enable color formatting for your shell first - see [this comment][2] for more details
+
+[2]: https://github.com/lysyi3m/osx-terminal-themes/issues/1#issuecomment-148635036
+
+
 ## Installation Instructions
 
 - Clone or download this repo
@@ -35,6 +42,7 @@ Terminal scheme. To run just execute script:
 ./tools/iterm2terminal.swift /path/to/my/awesome-scheme.itermcolors
 ```
 
+
 ### Generate Theme Preview
 
 If you have an awesome schemes and going to publish them, please generate
@@ -48,6 +56,10 @@ preview image using the following steps.
 3. Set the font size to 14.
 4. Take a screenshot and put it in the `screenshots/` folder.
 5. Update the `README.md` to include your new screenshot.
+
+_Note_: preview will be generated using [ANSI Escape Sequences][3]
+
+[3]: http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
 
 
 ## Screenshots
