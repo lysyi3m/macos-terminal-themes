@@ -1,4 +1,4 @@
-# mac-os-x-terminal-themes
+# macos-terminal-themes
 
 # Color schemes for default macOS Terminal.app
 
