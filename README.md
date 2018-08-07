@@ -1,14 +1,14 @@
 # mac-os-x-terminal-themes
 
-# Color schemes for default Mac OS X Terminal.app
+# Color schemes for default macOS Terminal.app
 
-This is a set of color schemes for default Mac OS X Terminal.app (ported from
+This is a set of color schemes for default macOS Terminal.app (ported from
 [iTerm 2 color schemes, collected by @mbadolato][1]). Screenshots are below and
 in the `screenshots/` directory of this repo.
 
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
 
-_Note_: Some default Mac OS X themes are not included here (default themes like
+_Note_: Some default macOS themes are not included here (default themes like
 "Pro", "Basic", "Grass", etc.), because you already have them :)
 
 
@@ -35,7 +35,7 @@ Since terminal themes are just color schemes, you need to enable color formattin
 
 ### Convert iTerm 2 Color Scheme
 
-This repo contains a tool to convert any iTerm 2 color scheme into Mac OS X
+This repo contains a tool to convert any iTerm 2 color scheme into macOS
 Terminal scheme. To run just execute script:
 
 ```
