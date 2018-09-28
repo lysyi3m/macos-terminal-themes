@@ -563,6 +563,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/solarized_light.png)
 
+### Source Code X
+
+![Screenshot](screenshots/source_code_x.png)
+
 ### SpaceGray
 
 ![Screenshot](screenshots/spacegray.png)
