@@ -434,6 +434,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/nightlion_v2.png)
 
+### Night Owl
+
+![Screenshot](screenshots/night_owl.png)
+
 ### Nova
 
 ![Screenshot](screenshots/nova.png)
