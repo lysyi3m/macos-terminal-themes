@@ -222,7 +222,7 @@
 	<key>rowCount</key>
 	<integer>40</integer>
 	<key>shellExitAction</key>
-	<integer>2</integer>
+	<integer>0</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
