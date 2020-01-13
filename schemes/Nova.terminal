@@ -1116,7 +1116,5 @@
 	<string>Nova</string>
 	<key>type</key>
 	<string>Window Settings</string>
-	<key>shellExitAction</key>
-	<integer>0</integer>
 </dict>
 </plist>

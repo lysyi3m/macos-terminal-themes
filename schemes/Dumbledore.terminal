@@ -208,7 +208,7 @@
 	<key>name</key>
 	<string>Dumbledore</string>
 	<key>shellExitAction</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>
