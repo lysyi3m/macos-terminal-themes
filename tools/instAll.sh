@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# set exit action to 0 so that the terminal window/tab closes on ctrl+d/exit/logout
+# Then open and close every tab
+
 set_exit_action () {
     #set schemes so windows close when ctrl+d/exit/logout is sent
     for filename in ../schemes/*.terminal;
@@ -15,28 +18,25 @@ set_exit_action () {
             if [ -z "$replace" ]
             then
                 lineNum=$(echo "$line" | grep -Eo '^[0-9]*');
-                sed -i '' ''"$lineNum"'s/[0-9]/0/g' $filename;
+                sed -i '' ''"$lineNum"'s/[0-9]/0/g' "$filename";
             fi
         fi
     done
 }
 
+
 install_scheme () {
     #open terminal with scheme loaded and close its corresponding window.
 
     #open file at first argument
-    open -F -n $1;
-    pkill -n Terminal;
-    #TODO: close file that was opened 
+    open -n -g "$1" && echo "$1" && sleep 2  && pkill -n Terminal;
 }
 
-#set_exit_action
+#this might not even be needed
+set_exit_action
 
-#call only one file for testing
-install_scheme ../schemes/Alucard.terminal
-
-#TODO: un-comment when test works^
-#for scheme in ../schemes/*.terminal;
-#do
-#    install_scheme $scheme &
-#done
+#bug in this loop/install_scheme function: not all are installed
+for scheme in ../schemes/*.terminal;
+do
+    install_scheme "$scheme"
+done
