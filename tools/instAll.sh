@@ -26,14 +26,17 @@ set_exit_action () {
 
 
 install_scheme () {
-    #open terminal with scheme loaded and close its corresponding window.
-
-    #open file at first argument
-    open -n -g "$1" && echo "$1" && sleep 2  && pkill -n Terminal;
+    # Does not work with the profile: Monokai Pro (Filter Spectrum).terminal because of the parentheses.
+    # Parse the xml contained in the terminal profile, for preference data.
+    # Add the profile to the Terminal plist.
+    # Window Settings is a dictionary of installed terminal profiles. 
+    XML=$(xmllint --xpath '/plist/dict' "$1")
+    NAME=$(echo $1 | awk '{split($0,a,"../schemes/"); print a[2]}' | cut -d'.' -f1)
+    defaults write com.apple.Terminal "Window Settings" -dict-add "$NAME" "$XML"
 }
 
 #this might not even be needed
-set_exit_action
+#set_exit_action
 
 #bug in this loop/install_scheme function: not all are installed
 for scheme in ../schemes/*.terminal;
