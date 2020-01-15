@@ -35,7 +35,7 @@ install_scheme () {
     defaults write com.apple.Terminal "Window Settings" -dict-add "$NAME" "$XML"
 }
 
-#this might not even be needed
+#uncomment the line below to set the exit action as "close window"
 #set_exit_action
 
 #bug in this loop/install_scheme function: not all are installed
