@@ -157,6 +157,14 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/c64.png)
 
+### Chalice Dark
+
+![Screenshot](screenshots/chalice_dark.png)
+
+### Chalice
+
+![Screenshot](screenshots/chalice.png)
+
 ### Chalk
 
 ![Screenshot](screenshots/chalk.png)
