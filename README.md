@@ -217,7 +217,7 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/dracula.png)
 
-### Dumbeldore
+### Dumbledore
 
 ![Screenshot](screenshots/dumbledore.png)
 
