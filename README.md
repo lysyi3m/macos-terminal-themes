@@ -116,6 +116,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/ayu_light.png)
 
+### Ayu Mirage ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Ayu Mirage.terminal>))
+
+![Screenshot](screenshots/ayu_mirage.png)
+
 ### Batman ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Batman.terminal>))
 
 ![Screenshot](screenshots/batman.png)
