@@ -684,6 +684,11 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/vibrantink.png)
 
+### VS Code Light Plus ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/VS Code Light Plus.terminal>))
+
+![Screenshot](screenshots/vs_code_light_plus.png)
+
+
 ### WarmNeon ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/WarmNeon.terminal>))
 
 ![Screenshot](screenshots/warmneon.png)
