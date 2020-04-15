@@ -1,9 +1,9 @@
 # macos-terminal-themes
 
-# Color schemes for default macOS Terminal.app
+# Color themes for default macOS Terminal.app
 
-This is a set of color schemes for default macOS Terminal.app (ported from
-[iTerm 2 color schemes, collected by @mbadolato][1]). Screenshots are below and
+This is a set of color themes for default macOS Terminal.app (initially ported from
+[iTerm2 color schemes, collected by @mbadolato][1]). Screenshots are demonstrated below and
 in the `screenshots/` directory of this repo.
 
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
@@ -16,46 +16,46 @@ _Note_: Some default macOS themes are not included here (default themes like
 
 Since terminal themes are just color schemes, you need to enable color formatting for your shell first - see [this comment][2] for more details
 
-[2]: https://github.com/lysyi3m/osx-terminal-themes/issues/1#issuecomment-148635036
+[2]: https://github.com/lysyi3m/macos-terminal-themes/issues/1#issuecomment-148635036
 
 
 ## Installation Instructions
 
 - Clone or download this repo
 
-- Go to `schemes/` folder
+- Go to `themes/` folder
 
-- Double click on selected `*.terminal` file. It will open a new Terminal window with that
-  color scheme.
+- Double click on `*.terminal` file. It will open a new Terminal window with selected
+  color theme.
 
-- Set the scheme as the default one with `Shell -> Use Settings as Default`
+- Set the theme as the default one with `Shell -> Use Settings as Default`
 
 
 ## Tools
 
-### Convert iTerm 2 Color Scheme
+### Convert iTerm2 Color Scheme
 
-This repo contains a tool to convert any iTerm 2 color scheme into macOS
-Terminal scheme. To run just execute script:
+This repo contains a tool to convert any iTerm2 color theme into macOS
+Terminal theme. To run just execute script:
 
-```
-./tools/iterm2terminal.swift /path/to/my/awesome-scheme.itermcolors
+```sh
+./tools/iterm2terminal.swift /path/to/my/awesome-theme.itermcolors
 ```
 
 
 ### Generate Theme Preview
 
-If you have an awesome schemes and going to publish them, please generate
+If you have an awesome themes and going to publish them, please generate
 preview image using the following steps.
 
 1. Load the theme in a terminal.
 2. Run
-   ```
+   ```sh
    bash tools/preview.sh
    ```
 3. Set the font size to 14.
 4. Take a screenshot and put it in the `screenshots/` folder.
-5. Update the `README.md` to include your new screenshot.
+5. Update the `README.md` to include your new theme screenshot.
 
 _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
