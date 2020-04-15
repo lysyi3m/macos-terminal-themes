@@ -39,7 +39,7 @@ This repo contains a tool to convert any iTerm2 color theme into macOS
 Terminal theme. To run just execute script:
 
 ```sh
-./tools/iterm2terminal.swift /path/to/my/awesome-theme.itermcolors
+$ ./tools/iterm2terminal.swift /path/to/my/awesome-theme.itermcolors
 ```
 
 
@@ -51,7 +51,7 @@ preview image using the following steps.
 1. Load the theme in a terminal.
 2. Run
    ```sh
-   bash tools/preview.sh
+   $ bash tools/preview.sh
    ```
 3. Set the font size to 14.
 4. Take a screenshot and put it in the `screenshots/` folder.
