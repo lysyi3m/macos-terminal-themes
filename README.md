@@ -706,3 +706,7 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 ### Zenburn
 
 ![Screenshot](screenshots/zenburn.png)
+
+### Unikitty
+
+![Screenshot](screenshots/unikitty.png)
