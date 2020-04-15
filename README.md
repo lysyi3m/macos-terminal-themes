@@ -116,7 +116,6 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/ayu_light.png)
 
-
 ### Batman
 
 ![Screenshot](screenshots/batman.png)
@@ -157,13 +156,13 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/c64.png)
 
-### Chalice Dark
-
-![Screenshot](screenshots/chalice_dark.png)
-
 ### Chalice
 
 ![Screenshot](screenshots/chalice.png)
+
+### Chalice Dark
+
+![Screenshot](screenshots/chalice_dark.png)
 
 ### Chalk
 
@@ -433,6 +432,9 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/neutron.png)
 
+### Night Owl
+
+![Screenshot](screenshots/night_owl.png)
 
 ### NightLion v1
 
@@ -441,10 +443,6 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 ### NightLion v2
 
 ![Screenshot](screenshots/nightlion_v2.png)
-
-### Night Owl
-
-![Screenshot](screenshots/night_owl.png)
 
 ### Nova
 
@@ -461,7 +459,6 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 ### Ocean
 
 ![Screenshot](screenshots/ocean.png)
-
 
 ### OceanicMaterial
 
@@ -511,10 +508,6 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/relaxed.png)
 
-### Rippedcasts
-
-![Screenshot](screenshots/rippedcasts.png)
-
 ### Renault Style
 
 ![Screenshot](screenshots/renault_style.png)
@@ -522,6 +515,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 ### Renault Style Light
 
 ![Screenshot](screenshots/renault_style_light.png)
+
+### Rippedcasts
+
+![Screenshot](screenshots/rippedcasts.png)
 
 ### Royal
 
@@ -579,6 +576,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/source_code_x.png)
 
+### Spacedust
+
+![Screenshot](screenshots/spacedust.png)
+
 ### SpaceGray
 
 ![Screenshot](screenshots/spacegray.png)
@@ -590,10 +591,6 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 ### SpaceGray Eighties Dull
 
 ![Screenshot](screenshots/spacegray_eighties_dull.png)
-
-### Spacedust
-
-![Screenshot](screenshots/spacedust.png)
 
 ### Spiderman
 
@@ -671,6 +668,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/ubuntu.png)
 
+### Unikitty
+
+![Screenshot](screenshots/unikitty.png)
+
 ### Urple
 
 ![Screenshot](screenshots/urple.png)
@@ -707,6 +708,3 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/zenburn.png)
 
-### Unikitty
-
-![Screenshot](screenshots/unikitty.png)
