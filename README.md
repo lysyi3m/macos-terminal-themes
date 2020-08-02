@@ -12,7 +12,7 @@ _Note_: Some default macOS themes are not included here (default themes like
 "Pro", "Basic", "Grass", etc.), because you already have them :)
 
 
-## Pre-requireties
+## Prerequisites
 
 Since terminal themes are just color schemes, you need to enable color formatting for your shell first - see [this comment][2] for more details
 
@@ -45,8 +45,8 @@ $ ./tools/iterm2terminal.swift /path/to/my/awesome-theme.itermcolors
 
 ### Generate Theme Preview
 
-If you have an awesome themes and going to publish them, please generate
-preview image using the following steps.
+If you have an awesome theme and want to publish it, please generate a
+preview image using the following steps:
 
 1. Load the theme in a terminal.
 2. Run
@@ -719,4 +719,3 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 ### Zenburn ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Zenburn.terminal>))
 
 ![Screenshot](screenshots/zenburn.png)
-
