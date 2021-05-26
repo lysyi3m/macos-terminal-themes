@@ -388,6 +388,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/man_page.png)
 
+### Mariana ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Mariana.terminal>))
+
+![Screenshot](screenshots/mariana.png)
+
 ### Material ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Material.terminal>))
 
 ![Screenshot](screenshots/material.png)
