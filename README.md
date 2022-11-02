@@ -80,6 +80,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/afterglow.png)
 
+### Alabaster ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Alabaster.terminal>))
+
+![Screenshot](screenshots/alabaster.png)
+
 ### AlienBlood ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/AlienBlood.terminal>))
 
 ![Screenshot](screenshots/alienblood.png)
