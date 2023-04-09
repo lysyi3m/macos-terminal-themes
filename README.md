@@ -140,6 +140,10 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/birdsofparadise.png)
 
+### Bifrost ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Bifrost.terminal>))
+
+![Screenshot](screenshots/bifrost.png)
+
 ### Blazer ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Blazer.terminal>))
 
 ![Screenshot](screenshots/blazer.png)
