@@ -540,6 +540,9 @@ _Note_: preview will be generated using [ANSI Escape Sequences][3]
 
 ![Screenshot](screenshots/royal.png)
 
+### Snazzy ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Snazzy.terminal>))
+
+![Screenshot](screenshots/snazzy.png)
 ### Seafoam Pastel ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Seafoam Pastel.terminal>))
 
 ![Screenshot](screenshots/seafoam_pastel.png)
