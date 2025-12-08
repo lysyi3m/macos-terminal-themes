@@ -21,6 +21,27 @@ Since terminal themes are just color schemes, you need to enable color formattin
 
 ## Installation Instructions
 
+### Automatic Installation (Recommended)
+
+The easiest way to install all themes at once:
+
+```sh
+git clone https://github.com/lysyi3m/macos-terminal-themes.git
+cd macos-terminal-themes
+./install.sh
+```
+
+This will automatically import all available themes to Terminal.app. After installation:
+
+1. Open Terminal Preferences (`⌘,`)
+2. Go to Profiles tab
+3. Select your preferred theme
+4. Click the "Default" button to set it as default
+
+### Manual Installation
+
+If you prefer to install themes individually:
+
 - Clone or download this repo
 
 - Go to `themes/` folder
