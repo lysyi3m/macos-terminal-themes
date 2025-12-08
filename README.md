@@ -28,15 +28,29 @@ The easiest way to install all themes at once:
 ```sh
 git clone https://github.com/lysyi3m/macos-terminal-themes.git
 cd macos-terminal-themes
-./install.sh
+./import-themes.sh
 ```
 
-This will automatically import all available themes to Terminal.app. After installation:
+This will automatically import all available themes to Terminal.app in the background (no windows will open). The script:
+
+- Imports themes directly to `~/Library/Preferences/com.apple.Terminal.plist`
+- Automatically skips themes that are already imported
+- Works without opening Terminal windows
+- Requires Python 3 (pre-installed on macOS 10.15+)
+
+**Features:**
+- **Background import**: No new Terminal windows will open during import
+- **Smart resume**: Already imported themes are automatically skipped
+- **Safe**: Uses native macOS plist manipulation via Python's built-in `plistlib`
+
+After installation:
 
 1. Open Terminal Preferences (`⌘,`)
 2. Go to Profiles tab
 3. Select your preferred theme
 4. Click the "Default" button to set it as default
+
+**Note**: You may need to restart Terminal.app to see all imported themes.
 
 ### Manual Installation
 
