@@ -489,13 +489,13 @@ the tools that generate the previews.
 
 <img src="screenshots/paulmillr.png" width="571" alt="Screenshot">
 
-### Pencil Dark ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/PencilDark.terminal>))
+### Pencil Dark ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Pencil Dark.terminal>))
 
-<img src="screenshots/pencildark.png" width="571" alt="Screenshot">
+<img src="screenshots/pencil_dark.png" width="571" alt="Screenshot">
 
-### Pencil Light ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/PencilLight.terminal>))
+### Pencil Light ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Pencil Light.terminal>))
 
-<img src="screenshots/pencillight.png" width="571" alt="Screenshot">
+<img src="screenshots/pencil_light.png" width="571" alt="Screenshot">
 
 ### Piatto Light ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Piatto Light.terminal>))
 
