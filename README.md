@@ -121,13 +121,13 @@ the tools that generate the previews.
 
 <img src="screenshots/belafonte_night.png" width="571" alt="Screenshot">
 
-### BirdsOfParadise ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/BirdsOfParadise.terminal>))
-
-<img src="screenshots/birdsofparadise.png" width="571" alt="Screenshot">
-
 ### Bifrost ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Bifrost.terminal>))
 
 <img src="screenshots/bifrost.png" width="571" alt="Screenshot">
+
+### BirdsOfParadise ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/BirdsOfParadise.terminal>))
+
+<img src="screenshots/birdsofparadise.png" width="571" alt="Screenshot">
 
 ### Blazer ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Blazer.terminal>))
 
@@ -541,9 +541,6 @@ the tools that generate the previews.
 
 <img src="screenshots/royal.png" width="571" alt="Screenshot">
 
-### Snazzy ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Snazzy.terminal>))
-
-<img src="screenshots/snazzy.png" width="571" alt="Screenshot">
 ### Seafoam Pastel ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Seafoam Pastel.terminal>))
 
 <img src="screenshots/seafoam_pastel.png" width="571" alt="Screenshot">
@@ -567,6 +564,10 @@ the tools that generate the previews.
 ### Smyck ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Smyck.terminal>))
 
 <img src="screenshots/smyck.png" width="571" alt="Screenshot">
+
+### Snazzy ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Snazzy.terminal>))
+
+<img src="screenshots/snazzy.png" width="571" alt="Screenshot">
 
 ### SoftServer ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/SoftServer.terminal>))
 
