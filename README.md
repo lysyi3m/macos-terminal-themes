@@ -25,20 +25,20 @@ Clone or download this repo first. The themes are in the `themes/` folder.
 
 ### Import through Terminal settings
 
-1. Open `Terminal > Settings > Profiles`.
+1. Open `Terminal > Settings > Profiles`, or press `cmd+,`.
 2. Click the `...` menu below the profile list, then `Import...`.
 3. Select a `.terminal` file from `themes/`.
 4. Keep the imported profile selected and click `Default`.
 5. Open a new window with `cmd+N`.
 
-### Double click
+### Double-click
 
-Double click a `.terminal` file in `themes/`. It opens a new window with that
+Double-click a `.terminal` file in `themes/`. It opens a new window with that
 theme. Make it stick with `Shell > Use Settings as Default`.
 
-macOS blocks files downloaded from the internet, so this can fail with a
-security warning. Either right click the file and choose `Open`, or import it
-through the settings as above.
+macOS quarantines files downloaded from the internet, so opening one can fail
+with a security warning. Either right-click the file and choose `Open`, or
+import it through the settings as above.
 
 
 ## Contributing
