@@ -380,7 +380,7 @@
   </data>
   <key>Bell</key>
   <false/>
-  <key>BoldTextColor</key>
+  <key>TextBoldColor</key>
   <data>
   YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
   AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
