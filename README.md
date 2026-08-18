@@ -31,40 +31,10 @@ Since terminal themes are just color schemes, you need to enable color formattin
 - Set the theme as the default one with `Shell -> Use Settings as Default`
 
 
-## Tools
+## Contributing
 
-### Convert iTerm2 Color Scheme
-
-This repo contains a tool to convert any iTerm2 color theme into macOS
-Terminal theme. To run just execute script:
-
-```sh
-$ ./tools/iterm2terminal.swift /path/to/my/awesome-theme.itermcolors
-```
-
-
-### Generate Theme Preview
-
-Previews are rendered from the theme file itself, so there is no manual
-screenshot step. To add a preview for your theme:
-
-```sh
-$ ./tools/generate-preview.swift themes/My\ Theme.terminal
-```
-
-The image is written to `screenshots/`, named after the theme: lowercase,
-with every run of non-alphanumeric characters collapsed to a single
-underscore. Then update `README.md` to include your new theme screenshot.
-
-To regenerate every preview at once, for example after the preview layout
-changes:
-
-```sh
-$ ./tools/generate-preview.swift themes/*.terminal
-```
-
-The tool reports any theme that leaves colors undefined, and falls back to
-Terminal.app's own defaults for those.
+Want to add a theme? See [CONTRIBUTING.md](CONTRIBUTING.md) for the steps and
+the tools that generate the previews.
 
 
 ## Screenshots
