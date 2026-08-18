@@ -49,12 +49,6 @@ struct Palette {
             colors[key] = srgb
         }
 
-        // tools/iterm2terminal.swift writes the bold color under "BoldTextColor",
-        // but Terminal.app reads "TextBoldColor". Accept either spelling.
-        if colors["TextBoldColor"] == nil, let legacy = colors["BoldTextColor"] {
-            colors["TextBoldColor"] = legacy
-        }
-
         missing = (Palette.uiKeys + Palette.ansiKeys).filter { colors[$0] == nil }
 
         // Fall back so an incomplete theme still renders instead of aborting the batch.
