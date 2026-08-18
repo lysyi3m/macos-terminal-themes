@@ -21,14 +21,24 @@ Since terminal themes are just color schemes, you need to enable color formattin
 
 ## Installation Instructions
 
-- Clone or download this repo
+Clone or download this repo first. The themes are in the `themes/` folder.
 
-- Go to `themes/` folder
+### Import through Terminal settings
 
-- Double click on `*.terminal` file. It will open a new Terminal window with selected
-  color theme.
+1. Open `Terminal > Settings > Profiles`, or press `cmd+,`.
+2. Click the `...` menu below the profile list, then `Import...`.
+3. Select a `.terminal` file from `themes/`.
+4. Keep the imported profile selected and click `Default`.
+5. Open a new window with `cmd+N`.
 
-- Set the theme as the default one with `Shell -> Use Settings as Default`
+### Double-click
+
+Double-click a `.terminal` file in `themes/`. It opens a new window with that
+theme. Make it stick with `Shell > Use Settings as Default`.
+
+macOS quarantines files downloaded from the internet, so opening one can fail
+with a security warning. Either right-click the file and choose `Open`, or
+import it through the settings as above.
 
 
 ## Contributing
