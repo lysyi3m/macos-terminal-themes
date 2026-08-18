@@ -138,7 +138,10 @@ struct ThemeConverter {
 
         switch (definition["Color Space"] as? String) ?? "sRGB" {
         case "sRGB":
-            return NSColor(srgbRed: red, green: green, blue: blue, alpha: alpha)
+            // Device RGB, not sRGB. It displays identically and is what Terminal.app
+            // writes when exporting a profile, but archives in 276 bytes rather than
+            // 3653: an sRGB NSColor embeds the full ICC profile in every color.
+            return NSColor(deviceRed: red, green: green, blue: blue, alpha: alpha)
         case "Calibrated":
             return NSColor(calibratedRed: red, green: green, blue: blue, alpha: alpha)
         case "P3", "Display P3":
