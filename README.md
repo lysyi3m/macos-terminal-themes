@@ -493,6 +493,12 @@ the tools that generate the previews.
 
 <img src="screenshots/paulmillr.png" width="571" alt="Screenshot">
 
+### Pelton — Orbits ([download](<https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/Pelton%20%E2%80%94%20Orbits.terminal>))
+
+<img src="screenshots/pelton_orbits.png" width="571" alt="A near-black navy terminal with pale lavender text and amber, rose, and cyan accents">
+
+After Agnes Pelton’s *Orbits* (1934). [Gallery Zero](https://bigcactuslabs.github.io/gallery-zero/#pelton-orbits) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ### Pencil Dark ([download](<https://github.com/lysyi3m/macos-terminal-themes/blob/master/themes/Pencil Dark.terminal>))
 
 <img src="screenshots/pencil_dark.png" width="571" alt="Screenshot">
